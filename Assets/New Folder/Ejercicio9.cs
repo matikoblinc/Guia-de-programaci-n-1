@@ -5,15 +5,15 @@ using UnityEngine;
 public class Ejercicio9 : MonoBehaviour
 {
     public string per1;
-    public int cant1;
+    public float cant1;
     public string per2;
-    public int cant2;
+    public float cant2;
     public string per3;
-    public int cant3;
-    int total;
-    int porcen1;
-    int porcen2;
-    int porcen3;
+    public float cant3;
+    float total;
+    float porcen1;
+    float porcen2;
+    float porcen3;
 
 
     void Start()
@@ -21,6 +21,7 @@ public class Ejercicio9 : MonoBehaviour
         total = cant1 + cant2 + cant3;
 
         porcen1 = cant1 / total * 100;
+
 
         porcen2 = cant2 / total * 100;
 
